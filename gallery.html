@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cutesy Plush</h1>
+        <!-- Nav Bar -->
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="photo">
+                <img src="images/big kirby plush.jpg" alt="Big pink plush with red shoes">
+                <p>This plushie is an adorable, oversized version of Kirby, featuring his signature round, pink body and cute expression. Its soft, squishy form makes it perfect for cuddling, with tiny arms, feet, and Kirby's signature rosy cheeks adding to its charm. It's an ideal companion for any Kirby fan or plushie collector looking for a cozy, cute addition to their collection.</p>
+            </div>
+            <div class="photo">
+                <img src="images/blue smile plush.jpg" alt="Medium sized plush that resembles a whale">
+                <p>This plushie is a round, light blue and white toy resembling a cute aquatic creature, possibly a whale. It has a simple face with two dot eyes and a small curved mouth, along with small fins on its sides.</p>
+            </div>
+            <div class="photo">
+                <img src="images/goose w knife plush.jpg" alt="White goose holding a knife in its mouth">
+                <p>This plushie is a white duck with an orange beak and feet, standing upright. It has a simple and cute design, making it an adorable toy for children or a charming decorative item.</p>
+            </div>
+            <div class="photo">
+                <img src="images/goldfish cracker plush.jpg" alt="Big original goldfish cracker">
+                <p>This plushie is a yellow fish-shaped toy made of soft material. It has a simple design and is being held by a hand wearing a black glove.</p>
+            </div>
+            <div class="photo">
+                <img src="images/duck w hat plush.jpg" alt="Duck with flower hat and mini backpack">
+                <p>This plushie is a white duck figurine wearing a purple hat and scarf. It stands upright with yellow feet and beak, making it a charming decorative item.</p>
+            </div>
+            <div class="photo">
+                <img src="images/hermit crab plush.jpg" alt="Hermit crab with purple shell">
+                <p>This plushie is a peach-colored crab with white polka dots, featuring large eyes and a small smile. It has a round body and is being held against a wooden background.</p>
+            </div>
+            <div class="photo">
+                <img src="images/snake in coon plush.jpg" alt="Yellow snake wrapped up like a burrito">
+                <p>This plushie is a yellow snake with a whimsical design, featuring the elongated shape and color of a banana. It has a cute face with a small smile, making it a fun and unique toy.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Javascript for slide drawer menu toggle -->
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+      </script>
+
+    <!-- Navigation controls will go here -->
+     <div class="gallery-controls">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+     </div>
+</body>
+</html>

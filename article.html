@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="artyicle-header">
+        <h2>Kirby and Snake?</h2>
+        <p>By Jake | 12/12/24</p>
+            <!-- Nav Bar -->
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Content Section and Sidebar will go here -->
+    <main>
+        <section class="article-content">
+            <h1>Cutesy Plush</h1>
+            <!-- Article contnent here -->
+            <h2>Big kirby</h2>
+
+            <!-- Main Image -->
+            <img src="images/big kirby plush.jpg" alt="Main article image" class="main-image">
+
+            <!-- Body text -->
+            <p>This is quite literally the biggest plush you will ever find of your favorite pink rounded character, Kirby. There is soo much more to discuss about such an adorable pink ball.</p>
+
+            <h3>Snake Wrap?!</h3>
+            <p>This soft and squishy friend has been wrapped up in what appears to be a blanket of some sort. Well, I surely do hope such an adorable slithery friend can make its way out soon!</p>
+
+            <!-- Smaller Image -->
+            <img src="images/snake in coon plush.jpg" alt="Secondary article image" class="secondary-image">
+
+            <!-- More Text -->
+            <p>Our small snake friend has some exciting news for us! It finds comfort in this blanket like wrapping and apparently has no plan to remove itself from it.</p>
+        </section>
+     </main>
+     <!-- Javascript for slide drawer menu toggle -->
+     <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+      </script>
+</body>
+</html>

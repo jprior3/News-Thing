@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cutest Plushies</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Contnent and Footer will go here -->
+    <main>
+        <!-- Featured Section -->
+        <section class="featured-content">
+            <h1>Welcome to The Cutest Plushies</h1>
+            <h2>Featured Plushie</h2>
+
+            <!-- Main Image -->
+            <img src="images/big kirby plush.jpg" alt="Featured plushie" class="main-image">
+
+            <!-- Body text -->
+            <p>Discover our adorable collection of plush toys. Find your new favorite plushie today!</p>
+
+            <h3>Latest Additions</h3>
+            <p>Check out the newest plushies in our collection.</p>
+
+            <!-- Secondary Image -->
+            <img src="images/snake in coon plush.jpg" alt="New plushie arrivals" class="secondary-image">
+
+            <!-- More Text -->
+            <p>Explore more and bring home the cutest companions!</p>
+        </section>
+    </main>
+     <!-- Javascript for slide drawer menu toggle -->
+      <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+      </script>
+      
+     <footer>
+        <p>Contact us at email@example.com</p>
+     </footer>
+</body>
+</html>
